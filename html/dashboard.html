@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dash.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="profile">
+                <img src="../imagens/profile.jpg" alt="Aluno">
+                <h3>Estudante</h3>
+                <p>Ciência da Computação</p>
+            </div>
+            <div class="today">
+                <h2>Hoje:</h2>
+                <ul>
+                    <li>Resumo Cálculo 2</li>
+                    <li>Seminário Empreendedorismo</li>
+                    <li>Lista de TAD</li>
+                </ul>
+            </div>
+            <div class="calendar">
+                <a href="./calendario.html"><img src="../imagens/calendar.png" alt="Calendário"></a>
+            </div>
+        </div>
+        <div class="center-panel">
+            <h1>Dashboard</h1>
+            <div class="study-plan">
+                <h2>Plano de Estudo</h2>
+                <div class="study-buttons">
+                    <button>Resumo Cálculo 2</button>
+                    <button>Vídeo Aula Matemateca</button>
+                    <button>Atividade de Cálculo 2</button>
+                </div>
+                <div class="progress-chart">
+                    <p>Passos Concluídos: 2/3</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 33.33%;"></div>
+                    </div>
+                    <div class="plus-button"><a href="./add-conteudo.html" style="text-decoration: none; color: white;">+</a></div>
+                </div>
+                <a href ="./plano.html" style="color: white; text-decoration: none";><button>Ver Seus Planos de Estudo</button></a>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h1>O que deseja encontrar?</h1>
+            <div class="study-button-right">
+            <input type="text" placeholder="Buscar...">
+            <div class="buttons">
+                <a href ="./resumos.html"><button>Resumos</button> </a>
+                <a href="./atividades.html"><button>Atividades</button></a>
+                <a href="./videoaula.html"><button>Vídeo Aulas</button></a>
+                <a href="./prova.html"><button>Provas</button></a>
+                <a href="./ver_plano.html"><button>Planos de Estudo</button></a>
+            </div>
+                <a href ="./add-conteudo.html"style="color: white; text-decoration: none;"><button class="add-content">+ Adicionar Conteúdo</button></a> 
+            </div>
+            <h2>Visto Recentemente</h2>
+            <div class="recently-viewed">
+                <img src="../imagens/calculo.jpg" alt="Recent 1">
+                <img src="../imagens/programacao.jpg" alt="Recent 2">
+                <img src="../imagens/biblioteca.jpg" alt="Recent 3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

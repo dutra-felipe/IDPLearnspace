@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    overflow-x: hidden;
+}
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.right-panel h1 {
+    text-align: center;
+}
+
+.right-panel input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.right-panel .buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.right-panel .buttons button {
+    padding: 10px 20px;
+    background-color: #004aad;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.right-panel .add-content {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #004aad;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right-panel h2 {
+    margin-top: 30px;
+}
+
+.dashboard-btn {
+    background-color: #004aad;
+    border: none;
+    color: white;
+    font-size: 36px; 
+    width: 72px; 
+    height: 72px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    top: 25px; 
+    left: 25px; 
+    z-index: 1000;
+}
+
+@media screen and (max-width: 1020px) {
+    .right-panel .buttons {
+        flex-direction: column;
+    }
+}
