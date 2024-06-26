@@ -1,68 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Dashboard</title> <!-- Define o título da página -->
+
+    <!-- Importa o arquivo de estilo CSS principal -->
     <link rel="stylesheet" href="../css/dash.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left-panel">
-            <div class="profile">
-                <img src="../imagens/profile.jpg" alt="Aluno">
-                <h3>Estudante</h3>
-                <p>Ciência da Computação</p>
+    <div class="container"> <!-- Container principal da página -->
+        <div class="left-panel"> <!-- Painel esquerdo -->
+            <div class="profile"> <!-- Seção de perfil -->
+                <img src="../imagens/profile.jpg" alt="Aluno"> <!-- Imagem do perfil do aluno -->
+                <h3>Estudante</h3> <!-- Nome do perfil -->
+                <p>Ciência da Computação</p> <!-- Curso do aluno -->
             </div>
-            <div class="today">
-                <h2>Hoje:</h2>
-                <ul>
+            <div class="today"> <!-- Seção de tarefas de hoje -->
+                <h2>Hoje:</h2> <!-- Título -->
+                <ul> <!-- Lista de tarefas -->
                     <li>Resumo Cálculo 2</li>
                     <li>Seminário Empreendedorismo</li>
                     <li>Lista de TAD</li>
                 </ul>
             </div>
-            <div class="calendar">
-                <a href="./calendario.html"><img src="../imagens/calendar.png" alt="Calendário"></a>
+            <div class="calendar"> <!-- Seção do calendário -->
+                <a href="./calendario.html"><img src="../imagens/calendar.png" alt="Calendário"></a> <!-- Link para o calendário -->
             </div>
         </div>
-        <div class="center-panel">
-            <h1>Dashboard</h1>
-            <div class="study-plan">
-                <h2>Plano de Estudo</h2>
-                <div class="study-buttons">
+        <div class="center-panel"> <!-- Painel central -->
+            <h1>Dashboard</h1> <!-- Título principal -->
+            <div class="study-plan"> <!-- Seção do plano de estudo -->
+                <h2>Plano de Estudo</h2> <!-- Título do plano de estudo -->
+                <div class="study-buttons"> <!-- Botões de estudo -->
                     <button>Resumo Cálculo 2</button>
                     <button>Vídeo Aula Matemateca</button>
                     <button>Atividade de Cálculo 2</button>
                 </div>
-                <div class="progress-chart">
-                    <p>Passos Concluídos: 2/3</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 33.33%;"></div>
+                <div class="progress-chart"> <!-- Seção do gráfico de progresso -->
+                    <p>Passos Concluídos: 2/3</p> <!-- Texto de progresso -->
+                    <div class="progress-bar"> <!-- Barra de progresso -->
+                        <div class="progress" style="width: 33.33%;"></div> <!-- Progresso atual -->
                     </div>
-                    <div class="plus-button"><a href="./add-conteudo.html" style="text-decoration: none; color: white;">+</a></div>
+                    <div class="plus-button"><a href="./add-conteudo.html" style="text-decoration: none; color: white;">+</a></div> <!-- Botão para adicionar conteúdo -->
                 </div>
-                <a href ="./plano.html" style="color: white; text-decoration: none";><button>Ver Seus Planos de Estudo</button></a>
+                <a href="./plano.html" style="color: white; text-decoration: none";><button>Ver Seus Planos de Estudo</button></a> <!-- Botão para ver planos de estudo -->
             </div>
         </div>
-        <div class="right-panel">
-            <h1>O que deseja encontrar?</h1>
-            <div class="study-button-right">
-            <input type="text" placeholder="Buscar...">
-            <div class="buttons">
-                <a href ="./resumos.html"><button>Resumos</button> </a>
-                <a href="./atividades.html"><button>Atividades</button></a>
-                <a href="./videoaula.html"><button>Vídeo Aulas</button></a>
-                <a href="./prova.html"><button>Provas</button></a>
-                <a href="./ver_plano.html"><button>Planos de Estudo</button></a>
+        <div class="right-panel"> <!-- Painel direito -->
+            <h1>O que deseja encontrar?</h1> <!-- Título da seção -->
+            <div class="study-button-right"> <!-- Seção de busca e botões -->
+                <input type="text" placeholder="Buscar..."> <!-- Campo de busca -->
+                <div class="buttons"> <!-- Botões de navegação -->
+                    <a href="./resumos.html"><button>Resumos</button></a>
+                    <a href="./atividades.html"><button>Atividades</button></a>
+                    <a href="./videoaula.html"><button>Vídeo Aulas</button></a>
+                    <a href="./prova.html"><button>Provas</button></a>
+                    <a href="./ver_plano.html"><button>Planos de Estudo</button></a>
+                </div>
+                <a href="./add-conteudo.html" style="color: white; text-decoration: none;"><button class="add-content">+ Adicionar Conteúdo</button></a> <!-- Botão para adicionar conteúdo -->
             </div>
-                <a href ="./add-conteudo.html"style="color: white; text-decoration: none;"><button class="add-content">+ Adicionar Conteúdo</button></a> 
-            </div>
-            <h2>Visto Recentemente</h2>
-            <div class="recently-viewed">
-                <img src="../imagens/calculo.jpg" alt="Recent 1">
-                <img src="../imagens/programacao.jpg" alt="Recent 2">
-                <img src="../imagens/biblioteca.jpg" alt="Recent 3">
+            <h2>Visto Recentemente</h2> <!-- Título da seção de visualizados recentemente -->
+            <div class="recently-viewed"> <!-- Seção de visualizados recentemente -->
+                <img src="../imagens/calculo.jpg" alt="Recent 1"> <!-- Imagem 1 -->
+                <img src="../imagens/programacao.jpg" alt="Recent 2"> <!-- Imagem 2 -->
+                <img src="../imagens/biblioteca.jpg" alt="Recent 3"> <!-- Imagem 3 -->
             </div>
         </div>
     </div>

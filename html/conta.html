@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <!-- Importa o arquivo de estilo CSS principal -->
   <link rel="stylesheet" href="../css/conta.css">
+  <!-- Importa o arquivo de estilo CSS para media queries -->
   <link rel="stylesheet" href="../css/media.css">
+  <!-- Importa o arquivo JavaScript personalizado -->
   <script type="text/javascript" src="../script.js"></script>
+  <!-- Importa o jQuery da CDN -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <title>Conta</title>
+  
+  <title>Conta</title> <!-- Define o título da página -->
 </head>
 <body>
-  <div id="container">
-    <div class="banner">
-      <img src="../imagens/login.png" alt="imagem-login">
-      <p style="color: #fff; font-weight: 400;">
+  <div id="container"> <!-- Container principal da página -->
+    <div class="banner"> <!-- Seção do banner -->
+      <img src="../imagens/login.png" alt="imagem-login"> <!-- Imagem do banner -->
+      <p style="color: #fff; font-weight: 400;"> <!-- Texto sobreposto no banner -->
           Seja bem vindo, acesse e aproveite todo o conteúdo,
           <br>somos uma equipe de profissionais empenhados em
           <br>trazer o melhor conteúdo direcionado a você, usuário. 
       </p>
     </div>
-    <div class="box-login">
+    <div class="box-login"> <!-- Caixa de login -->
       <h1>
         Olá!<br>
         Seja bem vindo de volta.
       </h1>
-      <div class="box">
+      <div class="box"> <!-- Caixa contendo o formulário de login -->
         <h2>Faça seu login agora:</h2>
-        <input type="text" name="username" id="username" placeholder="RA">
-        <input type="password" name="password" id="password" placeholder="Senha">
+        <input type="text" name="username" id="username" placeholder="RA"> <!-- Campo de texto para o nome de usuário -->
+        <input type="password" name="password" id="password" placeholder="Senha"> <!-- Campo de senha -->
+        
+        <!-- Link para a página de recuperação de senha -->
         <a href="./password.html">
           <p>Esqueceu a senha?</p>
         </a>
-        <a href ="./dashboard.html"><button>Login</button></a>
-        <a href ="./criar-conta.html">
+        
+        <!-- Botão de login que redireciona para a dashboard -->
+        <a href="./dashboard.html"><button>Login</button></a>
+        
+        <!-- Link para a página de criação de conta -->
+        <a href="./criar-conta.html">
           <p>Criar conta</p>
         </a>
       </div>
